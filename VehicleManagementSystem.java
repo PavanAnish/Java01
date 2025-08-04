@@ -46,7 +46,6 @@ class Car extends Vehicle {
         System.out.println("Maintenance Cost: " + maintenanceCost);
     }
 
-    @Override
     public void displayinfo() {
         super.displayinfo();
         System.out.println("Number of Doors: " + numberOfDoors);
@@ -79,7 +78,7 @@ class Motorcycle extends Vehicle {
         System.out.println("Maintenance Cost: " + maintenanceCost);
     }
 
-    @Override
+    
     public void displayinfo() {
         super.displayinfo();
         System.out.println("Sidecar: " + sidecar);
