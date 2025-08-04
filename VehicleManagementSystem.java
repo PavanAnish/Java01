@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.time.Year;
 
 class Vehicle {
     String brand;
@@ -23,7 +24,9 @@ class Vehicle {
     }
 
     void calculateResaleValue() {
-        double resaleValue = baseprice * 0.85;
+        int currentyear = Year.now().getValue();
+        int age = currentyear - year;
+        double resaleValue = baseprice * Math.pow(0.85,age);
         System.out.println("Resale Value: " + resaleValue);
     }
 }
