@@ -28,7 +28,7 @@ class Vehicle {
         int age = currentyear - year;
         double resaleValue = baseprice * Math.pow(0.85,age);
         System.out.println("Resale Value: " + resaleValue);
-    }
+    } 
 }
 
 class Car extends Vehicle {
