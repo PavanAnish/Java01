@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 import java.time.Year;
 
@@ -8,6 +7,7 @@ class Vehicle {
     int year;
     double baseprice;
 
+    
     Vehicle() {}
 
     Vehicle(String brand, String model, int year, double baseprice) {
