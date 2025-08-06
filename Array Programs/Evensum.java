@@ -1,4 +1,4 @@
-/*Write a java prog to find the sum of all even no.s in an array */
+
 import java.util.Scanner;
 class Evensum
 {

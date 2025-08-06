@@ -14,7 +14,6 @@ class BinarySearch
         for(i=1;i<=n;i++)
             ar[i]=sc.nextInt();
 
-        /*Sorting the array */
         for(i=1;i<=n;i++)
         {
             for(j=1;j<=n-i;j++)
@@ -35,7 +34,6 @@ class BinarySearch
 
         System.out.print("Enter the element to search : "); 
         k=sc.nextInt();
-        /*Binary Search */   
         while(l<=u)
         {
             mid=(l+u)/2;

@@ -26,7 +26,7 @@ class ReverseRow
             }
             System.out.println();
         }
-        /*Reverse row  */
+
         System.out.println("The Resultant Matrix is : ");
         for(i=0;i<r;i++)
         {
